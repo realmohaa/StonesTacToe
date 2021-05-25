@@ -35,8 +35,8 @@ public class StartController {
             FXMLLoader fxmlLoader = new FXMLLoader();
             fxmlLoader.setLocation(getClass().getResource("/fxml/gameUI.fxml"));
             Parent root = fxmlLoader.load();
-            fxmlLoader.<BoardGameController>getController().setPlayerName1(playerOneTF.getText());
-            fxmlLoader.<BoardGameController>getController().setPlayerName2(playerTwoTF.getText());
+            fxmlLoader.<BoardGameController>getController().setFirstPlayer(playerOneTF.getText());
+            fxmlLoader.<BoardGameController>getController().setSecondPlayer(playerTwoTF.getText());
             Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
             stage.setScene(new Scene(root));
             stage.show();

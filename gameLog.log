@@ -1,0 +1,206 @@
+06:17:07 [JavaFX Application Thread] DEBUG Main - The game has started
+06:17:10 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,0) by
+
+06:17:11 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,1) by
+
+06:17:13 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,0) by
+
+06:20:38 [JavaFX Application Thread] DEBUG Main - The game has started
+06:20:39 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,0)
+
+06:20:40 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,1)
+
+06:20:42 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (2,2)
+
+06:20:42 [JavaFX Application Thread] INFO  Main - hfghfg has won the game
+06:20:47 [JavaFX Application Thread] DEBUG Main - The game has started
+06:20:48 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,2)
+
+06:20:48 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,1)
+
+06:20:48 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,0)
+
+06:20:48 [JavaFX Application Thread] INFO  Main - hfghfg has won the game
+06:20:50 [JavaFX Application Thread] DEBUG Main - The game has started
+06:20:51 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,0)
+
+06:20:51 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,1)
+
+06:20:52 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,0)
+
+06:20:54 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,1)
+
+06:20:54 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (2,0)
+
+06:20:54 [JavaFX Application Thread] INFO  Main - hfghfg has won the game
+06:23:20 [JavaFX Application Thread] INFO  Main - initializing the board
+06:23:20 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:23:20 [JavaFX Application Thread] INFO  Main - Game has started
+06:23:21 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,0)
+
+06:23:22 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,1)
+
+06:23:23 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,1)
+
+06:23:24 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (2,2)
+
+06:23:24 [JavaFX Application Thread] INFO  Main - Azooz has won the game
+06:23:35 [JavaFX Application Thread] INFO  Main - initializing the board
+06:23:35 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:23:35 [JavaFX Application Thread] INFO  Main - Game has started
+06:23:38 [JavaFX Application Thread] INFO  Main - Moe has won the game
+06:25:57 [JavaFX Application Thread] INFO  Main - initializing the board
+06:25:57 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:25:57 [JavaFX Application Thread] INFO  Main - Game has started
+06:26:00 [JavaFX Application Thread] DEBUG Main - The game has been closed
+06:26:30 [JavaFX Application Thread] INFO  Main - initializing the board
+06:26:30 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:26:30 [JavaFX Application Thread] INFO  Main - Game has started
+06:26:33 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (2,0)
+
+06:26:33 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (2,1)
+
+06:26:33 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (2,2)
+
+06:26:33 [JavaFX Application Thread] INFO  Main - dgfgfdgdfg has won the game
+06:26:34 [JavaFX Application Thread] DEBUG Main - Re-initializing the board
+06:26:34 [JavaFX Application Thread] INFO  Main - initializing the board
+06:26:34 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:26:34 [JavaFX Application Thread] INFO  Main - Game has started
+06:26:34 [JavaFX Application Thread] DEBUG Main - Finished initializing the board
+06:26:38 [JavaFX Application Thread] DEBUG Main - Re-initializing the board
+06:26:38 [JavaFX Application Thread] INFO  Main - initializing the board
+06:26:38 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:26:38 [JavaFX Application Thread] INFO  Main - Game has started
+06:26:38 [JavaFX Application Thread] DEBUG Main - Finished initializing the board
+06:26:40 [JavaFX Application Thread] DEBUG Main - Re-initializing the board
+06:26:40 [JavaFX Application Thread] INFO  Main - initializing the board
+06:26:40 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:26:40 [JavaFX Application Thread] INFO  Main - Game has started
+06:26:40 [JavaFX Application Thread] DEBUG Main - Finished initializing the board
+06:27:25 [JavaFX Application Thread] INFO  Main - initializing the board
+06:27:26 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:27:26 [JavaFX Application Thread] INFO  Main - Game has started
+06:27:27 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,0)
+
+06:27:28 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,0)
+
+06:27:30 [JavaFX Application Thread] INFO  Main - initializing the board
+06:27:30 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:27:30 [JavaFX Application Thread] INFO  Main - Game has started
+06:28:36 [JavaFX Application Thread] INFO  Main - initializing the board
+06:28:36 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:28:36 [JavaFX Application Thread] INFO  Main - Game has started
+06:28:37 [JavaFX Application Thread] WARN  Main - Game is resetting
+06:28:37 [JavaFX Application Thread] INFO  Main - initializing the board
+06:28:37 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:28:37 [JavaFX Application Thread] INFO  Main - Game has started
+06:28:49 [JavaFX Application Thread] WARN  Main - Game is resetting
+06:28:49 [JavaFX Application Thread] INFO  Main - initializing the board
+06:28:49 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:28:49 [JavaFX Application Thread] INFO  Main - Game has started
+06:28:53 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,0)
+
+06:28:54 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,1)
+
+06:28:54 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,2)
+
+06:28:55 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (2,2)
+
+06:28:55 [JavaFX Application Thread] INFO  Main - yrtyr has won the game
+06:28:55 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (2,1)
+
+06:28:55 [JavaFX Application Thread] INFO  Main - thrtyrt has won the game
+06:29:00 [JavaFX Application Thread] WARN  Main - Game is resetting
+06:29:00 [JavaFX Application Thread] INFO  Main - initializing the board
+06:29:00 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:29:00 [JavaFX Application Thread] INFO  Main - Game has started
+06:40:52 [JavaFX Application Thread] INFO  Main - initializing the board
+06:40:52 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:40:52 [JavaFX Application Thread] INFO  Main - Game has started
+06:40:55 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,0)
+
+06:40:56 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,1)
+
+06:40:57 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,0)
+
+06:41:00 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (2,1)
+
+06:41:01 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,0)
+
+06:41:03 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,1)
+
+06:41:03 [JavaFX Application Thread] INFO  Main - Yazan In Da House has won the game
+06:41:10 [JavaFX Application Thread] WARN  Main - Game is resetting
+06:41:10 [JavaFX Application Thread] INFO  Main - initializing the board
+06:41:10 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:41:10 [JavaFX Application Thread] INFO  Main - Game has started
+06:41:13 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,0)
+
+06:41:13 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,1)
+
+06:41:13 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,2)
+
+06:41:13 [JavaFX Application Thread] INFO  Main - Moe In Da House has won the game
+06:41:17 [JavaFX Application Thread] DEBUG Main - The game has been closed
+06:41:39 [JavaFX Application Thread] INFO  Main - initializing the board
+06:41:39 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:41:39 [JavaFX Application Thread] INFO  Main - Game has started
+06:41:47 [JavaFX Application Thread] DEBUG Main - The game has been closed
+06:43:21 [JavaFX Application Thread] INFO  Main - initializing the board
+06:43:21 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:43:21 [JavaFX Application Thread] INFO  Main - Game has started
+06:43:27 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (2,2)
+
+06:43:28 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,1)
+
+06:43:28 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,0)
+
+06:43:29 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,1)
+
+06:43:30 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,1)
+
+06:43:31 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (2,2)
+
+06:43:32 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (2,2)
+
+06:43:32 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,0)
+
+06:43:34 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,1)
+
+06:43:35 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,0)
+
+06:43:36 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (2,1)
+
+06:43:37 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,0)
+
+06:43:37 [JavaFX Application Thread] INFO  Main - gfdgfdg has won the game
+06:43:43 [JavaFX Application Thread] WARN  Main - Game is resetting
+06:43:43 [JavaFX Application Thread] INFO  Main - initializing the board
+06:43:43 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:43:43 [JavaFX Application Thread] INFO  Main - Game has started
+06:43:43 [JavaFX Application Thread] DEBUG Main - The game has been closed
+06:43:55 [JavaFX Application Thread] INFO  Main - initializing the board
+06:43:55 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:43:55 [JavaFX Application Thread] INFO  Main - Game has started
+06:45:40 [JavaFX Application Thread] INFO  Main - initializing the board
+06:45:40 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:45:40 [JavaFX Application Thread] INFO  Main - Game has started
+06:45:42 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,0)
+
+06:45:43 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,1)
+
+06:45:43 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,0)
+
+06:45:43 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (0,1)
+
+06:45:44 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,2)
+
+06:45:44 [JavaFX Application Thread] INFO  Main - Mohammed has won the game
+06:45:44 [JavaFX Application Thread] INFO  Main - Mouse Clicked On: (1,2)
+
+06:45:52 [JavaFX Application Thread] WARN  Main - Game is resetting
+06:45:52 [JavaFX Application Thread] INFO  Main - initializing the board
+06:45:52 [JavaFX Application Thread] INFO  Main - Finished game initialization
+06:45:52 [JavaFX Application Thread] INFO  Main - Game has started
+06:45:54 [JavaFX Application Thread] DEBUG Main - The game has been closed

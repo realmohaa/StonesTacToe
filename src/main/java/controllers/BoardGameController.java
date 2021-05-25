@@ -2,40 +2,48 @@ package controllers;
 
 import javafx.application.Platform;
 import javafx.beans.binding.ObjectBinding;
-import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
+import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
 import javafx.scene.shape.Circle;
 import models.BoardGameModel;
-public class BoardGameController {
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
+public class BoardGameController {
     @FXML
     private GridPane boardID;
 
     @FXML
     private HBox header;
 
+    @FXML
+    private Label winnerLabel;
+
     private BoardGameModel model = new BoardGameModel();
 
-    private String playerName1;
-    private String playerName2;
+    private String firstPlayer;
+    private String secondPlayer;
 
-    public void setPlayerName1(String playerName1) {
-        this.playerName1 = playerName1;
+    public void setFirstPlayer(String firstPlayer) {
+        this.firstPlayer = firstPlayer;
+    }
+    public void setSecondPlayer(String secondPlayer) {
+        this.secondPlayer = secondPlayer;
     }
 
-    public void setPlayerName2(String playerName2) {
-        this.playerName2 = playerName2;
-    }
-
+    private static final Logger logger = LogManager.getLogger("Main");
 
     @FXML
     private void initialize(){
+
+        logger.info("initializing the board");
+
         model = new BoardGameModel();
         for(var i = 0; i < boardID.getRowCount(); i++) {
             for (var j = 0; j < boardID.getColumnCount(); j++) {
@@ -43,12 +51,17 @@ public class BoardGameController {
                     boardID.add(cell, j, i);
             }
         }
+
+        Platform.runLater(() -> winnerLabel.setText(firstPlayer + " Vs. " + secondPlayer));
+
+        logger.info("Finished game initialization");
+        logger.info("Game has started");
     }
 
     private StackPane createCell(int i, int j) {
         var cell = new StackPane();
         cell.setOnMouseClicked(this::mouseClickHandler);
-        var stone = new Circle(60);
+        var stone = new Circle(40);
         cell.getStyleClass().add("cell");
         stone.getStyleClass().add("stone");
 
@@ -79,20 +92,22 @@ public class BoardGameController {
         var row = GridPane.getRowIndex(cell);
         var col = GridPane.getColumnIndex(cell);
         model.move(row,col);
+        logger.info("Mouse Clicked On: ({},{})\n", row, col);
         if(model.hasFinished()){
             if(model.getMoveCount()%2 == 0){
-                System.out.println("Player 2 has Won!");
+                logger.info("{} has won the game", secondPlayer);
+                Platform.runLater(() -> winnerLabel.setText(secondPlayer + " has won the game!"));
             }
             else{
-                System.out.println("Player 1 has won!");
+                logger.info("{} has won the game", firstPlayer);
+                Platform.runLater(() -> winnerLabel.setText(firstPlayer + " has won the game!"));
             }
-
         }
-        System.out.printf("Mouse Clicked On: (%d,%d)\n", row, col);
     }
 
     @FXML
     private void handleQuitButton(){
+        logger.debug("The game has been closed");
         Platform.exit();
     }
 
@@ -109,7 +124,7 @@ public class BoardGameController {
                 stkPane.getChildren().remove(i);
             }
         }
-
+        logger.warn("Game is resetting");
     }
 
 }
