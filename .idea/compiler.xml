@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="javafx-boardgame-project" />
+        <module name="Stones TacToe" />
+        <module name="StonesTacToe" />
       </profile>
     </annotationProcessing>
   </component>

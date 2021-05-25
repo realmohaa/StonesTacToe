@@ -1,3 +1,4 @@
+// CHECKSTYLE:OFF
 package controllers;
 
 import javafx.event.ActionEvent;
@@ -10,8 +11,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-import results.GameResult;
-
 import java.io.IOException;
 
 public class StartController {
@@ -23,8 +22,8 @@ public class StartController {
     Button playBtn;
     @FXML
     Label missingPlayersLabel;
-
-
+    @FXML
+    FXMLLoader fxmlLoader = new FXMLLoader();
 
     @FXML
     public void handlePlayButton(ActionEvent actionEvent) throws IOException {
@@ -32,14 +31,22 @@ public class StartController {
             missingPlayersLabel.setText("Please Enter both Player names");
         }
         else{
-            FXMLLoader fxmlLoader = new FXMLLoader();
             fxmlLoader.setLocation(getClass().getResource("/fxml/gameUI.fxml"));
+            Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
             Parent root = fxmlLoader.load();
             fxmlLoader.<BoardGameController>getController().setFirstPlayer(playerOneTF.getText());
             fxmlLoader.<BoardGameController>getController().setSecondPlayer(playerTwoTF.getText());
-            Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
             stage.setScene(new Scene(root));
             stage.show();
         }
+    }
+
+    @FXML
+    public void openSheet(ActionEvent actionEvent) throws IOException {
+        fxmlLoader.setLocation(getClass().getResource("/fxml/scoreUI.fxml"));
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        Parent root = fxmlLoader.load();
+        stage.setScene(new Scene(root));
+        stage.show();
     }
 }

@@ -24,14 +24,14 @@
       </GridPane>
    </center>
    <top>
-      <HBox fx:id="header" maxHeight="100.0" maxWidth="-Infinity" minHeight="100.0" prefHeight="100.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+      <HBox fx:id="header" alignment="CENTER" maxHeight="100.0" maxWidth="-Infinity" minHeight="100.0" prefHeight="100.0" prefWidth="600.0" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fitHeight="94.0" fitWidth="224.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="94.0" fitWidth="202.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../images/logo.png" />
                </image>
                <HBox.margin>
-                  <Insets left="15.0" />
+                  <Insets />
                </HBox.margin>
             </ImageView>
             <Button fx:id="resetButton" mnemonicParsing="false" onAction="#handleResetGame" styleClass="menu-button" stylesheets="@../css/ui.css" text="Reset">
@@ -42,7 +42,7 @@
                   <Insets bottom="5.0" left="18.0" right="18.0" top="5.0" />
                </padding>
             </Button>
-            <Button fx:id="leaderboardButton" mnemonicParsing="false" styleClass="menu-button" stylesheets="@../css/ui.css" text="Leaderboards">
+            <Button fx:id="scoresButton" mnemonicParsing="false" onAction="#handleGameScores" styleClass="menu-button" stylesheets="@../css/ui.css" text="Scores" textAlignment="RIGHT">
                <HBox.margin>
                   <Insets bottom="30.0" left="20.0" top="30.0" />
                </HBox.margin>

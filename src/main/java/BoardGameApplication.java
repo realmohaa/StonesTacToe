@@ -5,7 +5,6 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class BoardGameApplication extends Application{
-
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/start.fxml"));
@@ -14,5 +13,4 @@ public class BoardGameApplication extends Application{
         stage.setResizable(false);
         stage.show();
     }
-
 }

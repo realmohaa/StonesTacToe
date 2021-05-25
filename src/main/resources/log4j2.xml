@@ -10,11 +10,19 @@
             <PatternLayout pattern="${LOG_PATTERN}"/>
         </File>
     </Appenders>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%highlight{${LOG_PATTERN}}"/>
+        </Console>
+        <File name="File1" fileName="scoresLog.log" append="true">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </File>
+    </Appenders>
     <Loggers>
         <Root level="all">
             <AppenderRef ref="File1"/>
         </Root>
-        <Logger name="Main" additivity="false">
+        <Logger name="gameLogger" additivity="false">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="File1"/>
         </Logger>

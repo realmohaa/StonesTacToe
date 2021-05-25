@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<index>
+    <Score>
+        <player1>gfhfg</player1>
+        <player2>hgfhgf</player2>
+        <dateStarted>May 25, 2021 at 3:23:16 PM CEST</dateStarted>
+        <winnerName>gfhfg</winnerName>
+        <moves>15</moves>
+    </Score>
+    <Score>
+        <player1>m</player1>
+        <player2>mm</player2>
+        <dateStarted>May 25, 2021 at 3:23:45 PM CEST</dateStarted>
+        <winnerName>mm</winnerName>
+        <moves>4</moves>
+    </Score>
+    <Score>
+        <player1>fdsfsdf</player1>
+        <player2>dsfsd</player2>
+        <dateStarted>May 25, 2021 at 3:29:04 PM CEST</dateStarted>
+        <winnerName>fdsfsdf</winnerName>
+        <moves>3</moves>
+    </Score>
+    <Score>
+        <player1>gfhgfh</player1>
+        <player2>hgfhfg</player2>
+        <dateStarted>May 25, 2021 at 3:33:19 PM CEST</dateStarted>
+        <winnerName>gfhgfh</winnerName>
+        <moves>0</moves>
+    </Score>
+    <Score>
+        <player1>fdgfd</player1>
+        <player2>gdfgdf</player2>
+        <dateStarted>May 25, 2021 at 3:34:18 PM CEST</dateStarted>
+        <winnerName></winnerName>
+        <moves>0</moves>
+    </Score>
+</index>

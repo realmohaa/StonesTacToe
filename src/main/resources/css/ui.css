@@ -41,3 +41,10 @@
     -fx-font-weight: bold;
     -fx-padding: 5px;
 }
+
+.scoresLabel {
+    -fx-text-fill: #FFF;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
