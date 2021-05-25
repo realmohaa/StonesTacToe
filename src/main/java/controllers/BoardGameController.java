@@ -1,8 +1,11 @@
 package controllers;
 
+import javafx.application.Platform;
 import javafx.beans.binding.ObjectBinding;
+import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.geometry.Pos;
+import javafx.scene.Node;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
@@ -19,8 +22,21 @@ public class BoardGameController {
 
     private BoardGameModel model = new BoardGameModel();
 
+    private String playerName1;
+    private String playerName2;
+
+    public void setPlayerName1(String playerName1) {
+        this.playerName1 = playerName1;
+    }
+
+    public void setPlayerName2(String playerName2) {
+        this.playerName2 = playerName2;
+    }
+
+
     @FXML
     private void initialize(){
+        model = new BoardGameModel();
         for(var i = 0; i < boardID.getRowCount(); i++) {
             for (var j = 0; j < boardID.getColumnCount(); j++) {
                 var cell = createCell(i,j);
@@ -32,7 +48,6 @@ public class BoardGameController {
     private StackPane createCell(int i, int j) {
         var cell = new StackPane();
         cell.setOnMouseClicked(this::mouseClickHandler);
-        cell.setAlignment(Pos.CENTER);
         var stone = new Circle(60);
         cell.getStyleClass().add("cell");
         stone.getStyleClass().add("stone");
@@ -71,8 +86,30 @@ public class BoardGameController {
             else{
                 System.out.println("Player 1 has won!");
             }
+
         }
         System.out.printf("Mouse Clicked On: (%d,%d)\n", row, col);
+    }
+
+    @FXML
+    private void handleQuitButton(){
+        Platform.exit();
+    }
+
+    @FXML
+    private void handleResetGame(ActionEvent actionEvent){
+        resetBoardCells();
+        initialize();
+    }
+
+    public void resetBoardCells(){
+        for(Node node : boardID.getChildren()){
+            StackPane stkPane = (StackPane) node;
+            for(int i = 0 ; i < stkPane.getChildren().size();i++){
+                stkPane.getChildren().remove(i);
+            }
+        }
+
     }
 
 }

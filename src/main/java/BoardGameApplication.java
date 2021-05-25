@@ -8,9 +8,9 @@ public class BoardGameApplication extends Application{
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/fxml/gameUI.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/fxml/start.fxml"));
         stage.setScene(new Scene(root));
-        stage.setTitle("3x3 Tic Tac Toe");
+        stage.setTitle("Stones Tac-Toe");
         stage.setResizable(false);
         stage.show();
     }

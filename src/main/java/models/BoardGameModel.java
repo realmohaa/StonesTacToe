@@ -1,12 +1,8 @@
 package models;
 
-import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.ReadOnlyIntegerWrapper;
 import javafx.beans.property.ReadOnlyObjectProperty;
 import javafx.beans.property.ReadOnlyObjectWrapper;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class BoardGameModel {
 
@@ -59,7 +55,6 @@ public class BoardGameModel {
 
     public static void main(String[] args) {
         var model = new BoardGameModel();
-        System.out.println(model);
     }
 
     public boolean hasFinished(){
@@ -88,7 +83,6 @@ public class BoardGameModel {
             for(var i = 0 ; i < BOARD_SIZE - 1; i++){
                 ReadOnlyObjectWrapper<Cell> currentCell = gameBoard[i][j];
                 ReadOnlyObjectWrapper<Cell> nextCell = gameBoard[i+1][j];
-                System.out.println(currentCell.get());
                 if(currentCell.getValue() != Cell.EMPTY && currentCell.getValue() == nextCell.getValue()){
                     count++;
                 }
@@ -107,7 +101,6 @@ public class BoardGameModel {
             for(var j = 0 ; j < BOARD_SIZE - 1 ; j++){
                 ReadOnlyObjectWrapper<Cell> currentCell = gameBoard[i][j];
                 ReadOnlyObjectWrapper<Cell> nextCell = gameBoard[i][j+1];
-                System.out.println(currentCell.get());
                 if(currentCell.getValue() != Cell.EMPTY && currentCell.getValue() == nextCell.getValue()){
                     count++;
                 }
