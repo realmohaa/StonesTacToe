@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="650.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stonestactoe.controllers.ScoreController">
+   <children>
+      <BorderPane prefHeight="650.0" prefWidth="600.0" styleClass="borderpane" stylesheets="@../css/ui.css">
+         <center>
+            <VBox alignment="TOP_CENTER" maxHeight="362.0" minHeight="276.0" prefHeight="276.0" prefWidth="600.0" stylesheets="@../css/ui.css" BorderPane.alignment="TOP_CENTER">
+               <children>
+                  <TableView fx:id="tableView" maxWidth="503.0" minWidth="150.0" prefHeight="395.0" prefWidth="503.0" stylesheets="@../css/ui.css">
+                    <columns>
+                      <TableColumn fx:id="firstPlayerCol" prefWidth="100.0" text="First Player" />
+                      <TableColumn fx:id="secondPlayerCol" minWidth="7.0" prefWidth="100.0" text="Second Player" />
+                        <TableColumn fx:id="winnerCol" prefWidth="100.0" text="Winner" />
+                        <TableColumn fx:id="dateCol" minWidth="100.0" prefWidth="90.0" text="Date" />
+                        <TableColumn fx:id="movesCol" minWidth="110.0" prefWidth="100.0" text="Moves" />
+                    </columns>
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </TableView>
+               </children>
+            </VBox>
+         </center>
+         <top>
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="TOP_CENTER">
+               <children>
+                  <ImageView fitHeight="100.0" fitWidth="670.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/logo.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <BorderPane.margin>
+                  <Insets top="20.0" />
+               </BorderPane.margin>
+            </HBox>
+         </top>
+         <bottom>
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="homeButton" mnemonicParsing="false" onAction="#HandleHomeButton" styleClass="menu-button" stylesheets="@../css/ui.css" text="Home">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+                     </padding>
+                  </Button>
+               </children>
+            </HBox>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>

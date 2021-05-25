@@ -1,3 +1,4 @@
+// CHECKSTYLE:OFF
 package stonestactoe;
 
 import javafx.application.Application;

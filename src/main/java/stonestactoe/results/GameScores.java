@@ -1,3 +1,4 @@
+// CHECKSTYLE:OFF
 package stonestactoe.results;
 
 import jakarta.xml.bind.annotation.XmlAccessType;

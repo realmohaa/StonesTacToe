@@ -26,7 +26,7 @@ public class BoardGameModel {
     private ReadOnlyObjectWrapper<Cell>[][] gameBoard = new ReadOnlyObjectWrapper[BOARD_SIZE][BOARD_SIZE];
 
     /**
-     * The number of moves
+     * The number of moves.
      * */
     private int moveCount = 0;
 

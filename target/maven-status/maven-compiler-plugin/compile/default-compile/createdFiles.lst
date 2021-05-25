@@ -1,0 +1,14 @@
+stonestactoe\Main.class
+stonestactoe\results\GameResult.class
+stonestactoe\models\BoardGameModel$1.class
+stonestactoe\models\BoardGameModel.class
+stonestactoe\models\Cell.class
+stonestactoe\controllers\BoardGameController$2.class
+stonestactoe\controllers\BoardGameController$1.class
+stonestactoe\controllers\StartController.class
+stonestactoe\results\JAXBHelper.class
+stonestactoe\results\ScoresManager.class
+stonestactoe\controllers\BoardGameController.class
+stonestactoe\results\GameScores.class
+stonestactoe\controllers\ScoreController.class
+stonestactoe\BoardGameApplication.class
