@@ -1,4 +1,4 @@
-package results;
+package stonestactoe.results;
 
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;

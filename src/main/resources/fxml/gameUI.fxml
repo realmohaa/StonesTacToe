@@ -5,7 +5,7 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane maxHeight="650.0" maxWidth="600.0" minHeight="650.0" minWidth="600.0" prefHeight="650.0" prefWidth="600.0" styleClass="borderpane" stylesheets="@../css/ui.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.BoardGameController">
+<BorderPane maxHeight="650.0" maxWidth="600.0" minHeight="650.0" minWidth="600.0" prefHeight="650.0" prefWidth="600.0" styleClass="borderpane" stylesheets="@../css/ui.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stonestactoe.controllers.BoardGameController">
    <center>
       <GridPane fx:id="boardID" hgap="15.0" maxHeight="490.0" maxWidth="470.0" minHeight="470.0" minWidth="469.0" prefHeight="490.0" prefWidth="469.0" stylesheets="@../css/ui.css" vgap="15.0">
         <columnConstraints>

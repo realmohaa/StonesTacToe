@@ -1,5 +1,5 @@
 // CHECKSTYLE:OFF
-package controllers;
+package stonestactoe.controllers;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

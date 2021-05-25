@@ -1,4 +1,4 @@
-package results;
+package stonestactoe.results;
 
 import jakarta.xml.bind.JAXBException;
 import org.apache.logging.log4j.LogManager;

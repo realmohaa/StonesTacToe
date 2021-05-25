@@ -1,4 +1,4 @@
-package models;
+package stonestactoe.models;
 
 /**
  * An Enum representing the cell states inside of the {@code BoardGameModel}.

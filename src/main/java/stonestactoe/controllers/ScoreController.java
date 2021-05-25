@@ -1,5 +1,5 @@
 // CHECKSTYLE:OFF
-package controllers;
+package stonestactoe.controllers;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -13,8 +13,8 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
-import results.GameResult;
-import results.ScoresManager;
+import stonestactoe.results.GameResult;
+import stonestactoe.results.ScoresManager;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;

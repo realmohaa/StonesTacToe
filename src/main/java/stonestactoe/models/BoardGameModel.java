@@ -1,4 +1,4 @@
-package models;
+package stonestactoe.models;
 
 import javafx.beans.property.ReadOnlyObjectProperty;
 import javafx.beans.property.ReadOnlyObjectWrapper;

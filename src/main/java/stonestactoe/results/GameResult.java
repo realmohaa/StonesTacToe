@@ -1,4 +1,5 @@
-package results;
+// CHECKSTYLE:OFF
+package stonestactoe.results;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

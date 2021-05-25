@@ -35,4 +35,11 @@
         <winnerName></winnerName>
         <moves>0</moves>
     </Score>
+    <Score>
+        <player1>hgfh</player1>
+        <player2>gfhgfh</player2>
+        <dateStarted>May 25, 2021 at 3:55:29 PM CEST</dateStarted>
+        <winnerName>gfhgfh</winnerName>
+        <moves>7</moves>
+    </Score>
 </index>

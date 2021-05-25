@@ -22,7 +22,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.outputEncoding>UTF-8</project.build.outputEncoding>
         <maven.compiler.release>16</maven.compiler.release>
-        <exec.mainClass>Main</exec.mainClass>
+        <exec.mainClass>stonestactoe.Main</exec.mainClass>
         <exec.cleanupDaemonThreads>false</exec.cleanupDaemonThreads>
         <javafx.version>16</javafx.version>
         <junit.jupiter.version>5.7.1</junit.jupiter.version>
@@ -231,7 +231,7 @@
                 <artifactId>maven-checkstyle-plugin</artifactId>
                 <version>3.1.2</version>
                 <configuration>
-                    <configLocation>checkstyle.xml</configLocation>
+                    <configLocation>src/main/resources/checkstyle.xml</configLocation>
                 </configuration>
             </plugin>
             <plugin>

@@ -1,5 +1,5 @@
 // CHECKSTYLE:OFF
-package controllers;
+package stonestactoe.controllers;
 
 import javafx.application.Platform;
 import javafx.beans.binding.ObjectBinding;
@@ -16,10 +16,10 @@ import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
 import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
-import models.BoardGameModel;
+import stonestactoe.models.BoardGameModel;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import results.ScoresManager;
+import stonestactoe.results.ScoresManager;
 
 import java.io.IOException;
 import java.time.ZonedDateTime;
