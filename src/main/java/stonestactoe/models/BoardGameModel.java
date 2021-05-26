@@ -49,7 +49,7 @@ public class BoardGameModel {
     public ReadOnlyObjectProperty<Cell> cellProperty(int i , int j) { return gameBoard[i][j].getReadOnlyProperty(); }
 
     /**
-     * @return The number of moves
+     * @return The number of moves.
      */
     public int getMoveCount() { return moveCount; }
 

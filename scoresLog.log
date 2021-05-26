@@ -211,3 +211,36 @@
 15:55:27 [JavaFX Application Thread] INFO  gameLogger - gfhgfh has won the game
 15:55:28 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (2,1)
 
+03:50:38 [JavaFX Application Thread] INFO  gameLogger - initializing the board
+03:50:38 [JavaFX Application Thread] INFO  gameLogger - Finished game initialization
+03:50:38 [JavaFX Application Thread] INFO  gameLogger - Game has started
+03:50:39 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (0,0)
+
+03:50:40 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (0,1)
+
+03:50:41 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (0,2)
+
+03:50:41 [JavaFX Application Thread] INFO  gameLogger - Mohammed has won the game
+03:50:43 [JavaFX Application Thread] WARN  gameLogger - Game is resetting
+03:50:43 [JavaFX Application Thread] INFO  gameLogger - initializing the board
+03:50:43 [JavaFX Application Thread] INFO  gameLogger - Finished game initialization
+03:50:43 [JavaFX Application Thread] INFO  gameLogger - Game has started
+03:50:44 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (0,0)
+
+03:50:44 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (1,1)
+
+03:50:45 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (2,2)
+
+03:50:45 [JavaFX Application Thread] INFO  gameLogger - Mohammed has won the game
+11:27:49 [JavaFX Application Thread] INFO  gameLogger - initializing the board
+11:27:49 [JavaFX Application Thread] INFO  gameLogger - Finished game initialization
+11:27:49 [JavaFX Application Thread] INFO  gameLogger - Game has started
+11:27:50 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (0,0)
+
+11:27:50 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (0,1)
+
+11:27:51 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (1,1)
+
+11:27:57 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (2,1)
+
+11:27:57 [JavaFX Application Thread] INFO  gameLogger - dsfds has won the game

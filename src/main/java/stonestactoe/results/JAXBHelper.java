@@ -6,6 +6,9 @@ import jakarta.xml.bind.Marshaller;
 import jakarta.xml.bind.Unmarshaller;
 import java.io.*;
 
+/**
+ * Helper class to work with JAXB.
+ */
 public class JAXBHelper {
 
     /**

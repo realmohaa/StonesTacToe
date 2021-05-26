@@ -80,5 +80,4 @@ public class ScoreController {
                 .limit(5)
                 .collect(Collectors.toList());
     }
-
 }

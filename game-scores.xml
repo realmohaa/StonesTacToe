@@ -42,4 +42,18 @@
         <winnerName>gfhgfh</winnerName>
         <moves>7</moves>
     </Score>
+    <Score>
+        <player1>Mohammed</player1>
+        <player2>Azooz</player2>
+        <dateStarted>May 26, 2021 at 3:50:47 AM CEST</dateStarted>
+        <winnerName>Mohammed</winnerName>
+        <moves>3</moves>
+    </Score>
+    <Score>
+        <player1>fdsfdsf</player1>
+        <player2>dsfds</player2>
+        <dateStarted>May 26, 2021 at 11:28:00 AM CEST</dateStarted>
+        <winnerName>dsfds</winnerName>
+        <moves>4</moves>
+    </Score>
 </index>

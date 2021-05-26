@@ -1,0 +1,37 @@
+11:39:33 [JavaFX Application Thread] INFO  gameLogger - initializing the board
+11:39:34 [JavaFX Application Thread] INFO  gameLogger - Finished game initialization
+11:39:34 [JavaFX Application Thread] INFO  gameLogger - Game has started
+11:39:34 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (0,0)
+
+11:39:34 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (0,1)
+
+11:39:35 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (1,0)
+
+11:39:35 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (1,0)
+
+11:39:36 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (0,0)
+
+11:39:36 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (1,1)
+
+11:39:36 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (1,1)
+
+11:39:38 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (2,0)
+
+11:39:39 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (1,0)
+
+11:39:40 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (2,1)
+
+11:39:42 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (2,1)
+
+11:39:42 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (1,2)
+
+11:39:43 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (1,2)
+
+11:39:45 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (1,1)
+
+11:39:45 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (2,2)
+
+11:39:47 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (1,2)
+
+11:39:47 [JavaFX Application Thread] INFO  gameLogger - Omar has won the game
+11:39:49 [JavaFX Application Thread] DEBUG scoresLog - Scores log file created
