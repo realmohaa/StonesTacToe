@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: stonestactoe.models.BoardGameModelTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.135 s - in stonestactoe.models.BoardGameModelTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.145 s - in stonestactoe.models.BoardGameModelTest

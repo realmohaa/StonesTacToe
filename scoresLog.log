@@ -244,3 +244,16 @@
 11:27:57 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (2,1)
 
 11:27:57 [JavaFX Application Thread] INFO  gameLogger - dsfds has won the game
+10:15:13 [JavaFX Application Thread] INFO  gameLogger - initializing the board
+10:15:13 [JavaFX Application Thread] INFO  gameLogger - Finished game initialization
+10:15:13 [JavaFX Application Thread] INFO  gameLogger - Game has started
+10:15:17 [JavaFX Application Thread] INFO  gameLogger - initializing the board
+10:15:17 [JavaFX Application Thread] INFO  gameLogger - Finished game initialization
+10:15:17 [JavaFX Application Thread] INFO  gameLogger - Game has started
+10:15:18 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (0,0)
+
+10:15:18 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (0,1)
+
+10:15:18 [JavaFX Application Thread] INFO  gameLogger - Mouse Clicked On: (0,2)
+
+10:15:18 [JavaFX Application Thread] INFO  gameLogger - 657657 has won the game

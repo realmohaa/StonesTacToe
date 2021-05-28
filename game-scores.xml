@@ -56,4 +56,18 @@
         <winnerName>dsfds</winnerName>
         <moves>4</moves>
     </Score>
+    <Score>
+        <player1>gfdg</player1>
+        <player2>fdgdfg</player2>
+        <dateStarted>May 28, 2021 at 10:15:13 AM CEST</dateStarted>
+        <winnerName></winnerName>
+        <moves>0</moves>
+    </Score>
+    <Score>
+        <player1>657657</player1>
+        <player2>6575</player2>
+        <dateStarted>May 28, 2021 at 10:15:20 AM CEST</dateStarted>
+        <winnerName>657657</winnerName>
+        <moves>3</moves>
+    </Score>
 </index>
